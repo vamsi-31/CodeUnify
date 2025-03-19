@@ -107,6 +107,9 @@ class CodeCompiler:
         
         # Documentation
         'docs/_build', 'site', 'public', '_site'
+
+        # Log files
+        'logs', 'log', '*.log', '*.logs'
     ]
     
     def __init__(self, directory=None, output_file="code_compilation.txt", 
